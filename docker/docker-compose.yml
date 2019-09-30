@@ -7,8 +7,6 @@ services:
         - username=${USER}
         - uid=${UID}
         - gid=${GID}
-        - environment=environment.yml
-        - entrypoint=docker/entrypoint.sh
       context: ../
       dockerfile: docker/Dockerfile
     ports:

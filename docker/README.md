@@ -7,8 +7,6 @@ $ docker build \
   --build-arg username=$USER \
   --build-arg uid=$UID \
   --build-arg gid=$GID \
-  --build-arg environment=environment.yml \
-  --build-arg entrypoint=docker/entrypoint.sh \
   --file docker/Dockerfile \
   --tag $IMAGE_NAME:$IMAGE_TAG \
   ../

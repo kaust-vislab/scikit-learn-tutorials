@@ -8,10 +8,12 @@ channels:
 dependencies:
   - featuretools=0.10
   - jupyterlab=1.0
+  - kaggle=1.5
   - matplotlib=3.1
   - pandas=0.25
   - pyarrow=0.14
   - python=3.6
+  - seaborn=0.9
   - scikit-learn=0.21
   - scikit-optimize=0.5
   - yellowbrick=1.0
